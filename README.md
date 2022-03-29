@@ -1,3 +1,5 @@
+![images](https://user-images.githubusercontent.com/96084042/160648175-78aaa79f-2dcc-481c-a411-7ab952db2813.jpg)
+
 # Aprendendo R
 Um Guia inicial para auxiliar no aprendizado da  linguagem R. O material é baseado nas monitorias lecionadas por mim na Universidade Federal de São Carlos na disciplina de Estatística 1 do curso de Economia, tendo como referência os livros: introdução ao R do curso de bioestatística de tela e pós-graduação na Universidade de Aberdeen e "R for Data Science" da editora O'Reilly, os quias eu recomendo como material para aprofundamento do aprendizado.
 
