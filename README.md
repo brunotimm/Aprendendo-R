@@ -1,2 +1,2 @@
 # Aprendendo-R
-Um Guia para o auxilio do aprendizado da linguagem R. O material aqui é baseado nas monitorias lecionadas por mim na Universidade Federal de São Carlos na disciplina de Estatística 1. 
+Um Guia inicial para auxiliar no aprendizado da  linguagem R. O material aqui é baseado nas monitorias lecionadas por mim na Universidade Federal de São Carlos na disciplina de Estatística 1, tendo como base o livro de  introdução ao R do curso de bioestatística de graduação e pós-graduação na Universidade de Aberdeen e do livro "R for Data Science" da editora O'Reilly os quias eu recomendo como material para aprofundamento do aprendizado. 
