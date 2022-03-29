@@ -9,8 +9,7 @@ O conteúdo desse guia, ou seja, os assuntos abordados em cada "capítulo" segue
 
 Seções de aulas: 
 
-* [Introdução]
-* [Aula 1]
+* [Sumário]
 
 
 
