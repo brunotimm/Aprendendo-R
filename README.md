@@ -6,4 +6,5 @@ Um Guia inicial para auxiliar no aprendizado da  linguagem R. O material é base
 
 # Referências
 link para o livro-site dos professores da universidade de Aberdeen - https://intro2r.com/
+
 link para o livro-site "R for Data Science" da editora O'Reilly - https://r4ds.had.co.nz/
