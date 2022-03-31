@@ -7,7 +7,7 @@ Um Guia inicial para auxiliar no aprendizado da  linguagem R. O material é base
 ## Conteúdo: Estrutura das seções
 O conteúdo desse guia, ou seja, os assuntos abordados em cada "capítulo" seguem a mesma sequência utilizada nas aulas dadas. Cada aula aborda no máximo 3 conteúdos do R (a depender do conteúdo), e posuem uma sequência lógica e progressiva de aprendizado. Portanto, a não ser que haja domínio prévio dos temas eu aconselho a seguir essa estrutura, mas fique a vontade para utilizar da forma que quiser e a sequência que achar melhor para si, até porque não se trata de um manual formal. 
 
-###### Seções de aulas: 
+###### Seção de aulas: 
 
 * [Sumário](Súmario/README.md)
 
