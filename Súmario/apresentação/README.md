@@ -32,6 +32,14 @@ R é uma linguagem/ softwaree de computação estatística e gráfica de código
 
 
 
+### Pacotes
+
+
+
+
+
+
+
 ### Ajuda no R
 Um dos muitos aspectos positivos do R é o seu sistema de ajuda, seja ela dentro do próprio sistema, através da imensa e ativa comunidade de pessoas que usam o R ou por meio da riqueza de recursos on-line onde você pode obter mais informações. Independemente do canal que você utilize, as ferramentas de ajuda são muito acessíveis, o que torna fácil obter a resposta para a dúvida e problema que você pode estar enfrentando (e acredite vão ser muitos). O lado bom é que provavelmente alguém já deve ter passado pelo mesmo problema que você e portanto a solução para isso será muito mais simples para você do que foi para aqueles que te deram a resposta. Algumas das formas de se obter ajuda em R são:
 
@@ -41,4 +49,54 @@ Função help(): A função help() é utilizada para acessar o recurso de ajuda 
 
 * (Importante: para a utilização da função help é necessário saber o nome da função que se deseja buscar ajuda).
 
+Outra alternativa é usar ?nome da função, no caso da função median ficaria
+
+      ?median
+      
+ * O resultado produzido é exatamente o mesmo que help(median)
+
 ![Imagem0c](https://user-images.githubusercontent.com/96084042/168378483-717089aa-eb8b-4578-81f6-1502de199e93.png)
+
+
+
+Mas e se você não lembrar o nome da função que gostaria de usar? Bem, o R tem uma outra forma de pedir ajuda ao sistema! Nesse caso, basta saber uma palavra-chave referente ao que se busca. Por exemplo, gostaria de criar um diagrama de caixa mas não me recordo o comando desse, contudo sei que o termo "plot" refere-se a plotagem (criação) de gráficos. Podemos utilizar então a função apropos, nesta, colocamos a palavra-chave sobre aspas dentro do parênteses da funçao e ela nos lista todas as funções com esse termo chave.
+
+      apropos("plot")
+      
+![Imagem0d](https://user-images.githubusercontent.com/96084042/168484889-4b3af483-bf83-409e-b919-184e9d27af81.png)
+
+      
+ * O comando que buscavamos era o "Boxplot" que está grifado na imagem.    
+      
+
+
+
+
+
+
+
+
+Além dessas duas formas de se obter ajuda que mostradas, existem milhares de outros recursos para se obter ajuda tanto dentro do R quanto fora, que não dariam pra ser abordados aqui. Alguns dos outros meios de se obter ajuda são por meio dos cheatsheets, cartões resumos sobre os principais recursos (https://www.rstudio.com/resources/cheatsheets/), funções e dicas de R, no próprio site R (https://www.r-project.org/), e nas mais  diversas comunidades ativas do R e forúns como o Stack Overflow.    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
