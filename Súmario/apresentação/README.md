@@ -21,21 +21,24 @@ R é uma linguagem/ softwaree de computação estatística e gráfica de código
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### Pacotes
+É possível fazer muita coisa em termos de ciência de dados no R no entanto as vezes é necessário alguns recursos adicionais que podem ser encontrados nos pacotes. Os pacotes são uma coleções de funções, dados e arquivos de ajuda reunidos em uma estrutura, que podem ser instaladas no R de uma maneira muito simples e prática de várias fontes, como por exemplo (e os mais populares) CRAN e o GitHub. 
+Para instalar um pacote do CRAN usamos a função install.packages. Suponha que queremos instalar o pacote tidyverse (que será abordado posteriormente nesse material), devemos prosseguir da seguinte forma
 
+      install.packages("tidyverse") 
+      
+* Uma vez instalado, o pacote ficará salvo na memória do R e para utiliza-lo basta usar o comando de carregamento de pacotes que veremos a seguir
+* É necessário colocar o nome do pacote que se quer instalar entre aspas simples ou duplas (tanto faz) para que a instalação seja realizada com sucesso. 
 
+##### Carregando os pacotes
+Depois de instalar o pacote no R, ele não está automáticamente sendo usado. Para conseguirmos utilizar os pacotes baixados, precisamos carregá-los por meio da função library(). A função library também carregará quaisquer pacotes adicionais necessários e poderá imprimir informações adicionais do pacote.
+      
+      library(tidyverse)
+      
+* É importante perceber que toda vez que você inicia uma nova sessão do R (ou restaura uma sessão salva anteriormente), você precisa carregar os pacotes que for usar novamente.
+* Se tentarmos usar uma função sem antes carregar o pacote que ele está contido, o R retornará um erro como esse
 
+      could not find package "tidyverse"
 
 
 
