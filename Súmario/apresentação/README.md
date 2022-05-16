@@ -42,7 +42,6 @@ Depois de instalar o pacote no R, ele não está automáticamente sendo usado. P
 
 
 
-
 ### Ajuda no R
 Um dos muitos aspectos positivos do R é o seu sistema de ajuda, seja ela dentro do próprio sistema, através da imensa e ativa comunidade de pessoas que usam o R ou por meio da riqueza de recursos on-line onde você pode obter mais informações. Independemente do canal que você utilize, as ferramentas de ajuda são muito acessíveis, o que torna fácil obter a resposta para a dúvida e problema que você pode estar enfrentando (e acredite vão ser muitos). O lado bom é que provavelmente alguém já deve ter passado pelo mesmo problema que você e portanto a solução para isso será muito mais simples para você do que foi para aqueles que te deram a resposta. Algumas das formas de se obter ajuda em R são:
 
@@ -73,33 +72,7 @@ Mas e se você não lembrar o nome da função que gostaria de usar? Bem, o R te
       
 
 
-
-
-
-
-
-
 Além dessas duas formas de se obter ajuda que mostradas, existem milhares de outros recursos para se obter ajuda tanto dentro do R quanto fora, que não dariam pra ser abordados aqui. Alguns dos outros meios de se obter ajuda são por meio dos cheatsheets, cartões resumos sobre os principais recursos (https://www.rstudio.com/resources/cheatsheets/), funções e dicas de R, no próprio site R (https://www.r-project.org/), e nas mais  diversas comunidades ativas do R e forúns como o Stack Overflow.    
       
       
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+         
