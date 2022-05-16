@@ -21,13 +21,24 @@ R é uma linguagem/ softwaree de computação estatística e gráfica de código
 
 
 
+### Pacotes
+É possível fazer muita coisa em termos de ciência de dados no R no entanto as vezes é necessário alguns recursos adicionais que podem ser encontrados nos pacotes. Os pacotes são uma coleções de funções, dados e arquivos de ajuda reunidos em uma estrutura, que podem ser instaladas no R de uma maneira muito simples e prática de várias fontes, como por exemplo (e os mais populares) CRAN e o GitHub. 
+Para instalar um pacote do CRAN usamos a função install.packages. Suponha que queremos instalar o pacote tidyverse (que será abordado posteriormente nesse material), devemos prosseguir da seguinte forma
 
+      install.packages("tidyverse") 
+      
+* Uma vez instalado, o pacote ficará salvo na memória do R e para utiliza-lo basta usar o comando de carregamento de pacotes que veremos a seguir
+* É necessário colocar o nome do pacote que se quer instalar entre aspas simples ou duplas (tanto faz) para que a instalação seja realizada com sucesso. 
 
+##### Carregando os pacotes
+Depois de instalar o pacote no R, ele não está automáticamente sendo usado. Para conseguirmos utilizar os pacotes baixados, precisamos carregá-los por meio da função library(). A função library também carregará quaisquer pacotes adicionais necessários e poderá imprimir informações adicionais do pacote.
+      
+      library(tidyverse)
+      
+* É importante perceber que toda vez que você inicia uma nova sessão do R (ou restaura uma sessão salva anteriormente), você precisa carregar os pacotes que for usar novamente.
+* Se tentarmos usar uma função sem antes carregar o pacote que ele está contido, o R retornará um erro como esse
 
-
-
-
-
+      could not find package "tidyverse"
 
 
 
@@ -41,4 +52,54 @@ Função help(): A função help() é utilizada para acessar o recurso de ajuda 
 
 * (Importante: para a utilização da função help é necessário saber o nome da função que se deseja buscar ajuda).
 
+Outra alternativa é usar ?nome da função, no caso da função median ficaria
+
+      ?median
+      
+ * O resultado produzido é exatamente o mesmo que help(median)
+
 ![Imagem0c](https://user-images.githubusercontent.com/96084042/168378483-717089aa-eb8b-4578-81f6-1502de199e93.png)
+
+
+
+Mas e se você não lembrar o nome da função que gostaria de usar? Bem, o R tem uma outra forma de pedir ajuda ao sistema! Nesse caso, basta saber uma palavra-chave referente ao que se busca. Por exemplo, gostaria de criar um diagrama de caixa mas não me recordo o comando desse, contudo sei que o termo "plot" refere-se a plotagem (criação) de gráficos. Podemos utilizar então a função apropos, nesta, colocamos a palavra-chave sobre aspas dentro do parênteses da funçao e ela nos lista todas as funções com esse termo chave.
+
+      apropos("plot")
+      
+![Imagem0d](https://user-images.githubusercontent.com/96084042/168484889-4b3af483-bf83-409e-b919-184e9d27af81.png)
+
+      
+ * O comando que buscavamos era o "Boxplot" que está grifado na imagem.    
+      
+
+
+
+
+
+
+
+
+Além dessas duas formas de se obter ajuda que mostradas, existem milhares de outros recursos para se obter ajuda tanto dentro do R quanto fora, que não dariam pra ser abordados aqui. Alguns dos outros meios de se obter ajuda são por meio dos cheatsheets, cartões resumos sobre os principais recursos (https://www.rstudio.com/resources/cheatsheets/), funções e dicas de R, no próprio site R (https://www.r-project.org/), e nas mais  diversas comunidades ativas do R e forúns como o Stack Overflow.    
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
