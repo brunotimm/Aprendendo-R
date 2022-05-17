@@ -9,7 +9,7 @@ O conteúdo desse guia, ou seja, os assuntos abordados em cada tópico seguem a 
 
 ###### Acesso as aulas: 
 
-* [Sumário](Súmario/README.md)
+* [índice](Súmario/README.md)
 
 
 
