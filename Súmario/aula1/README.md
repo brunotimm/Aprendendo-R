@@ -72,25 +72,48 @@ No entanto se tentarmos realizar ações com objetos do tipo caracter, o R retor
 A medida que progredimos no aprendizado e uso da linguagem iremos nos deparar com problemas e tarefas que demandem estruturas mais complexas do que os simples objetos que criamos, em decorrência disso as funções são importantes e facilitam muito a otimização de códigos e tarefas, além de nos ajudar a resolver muitos problemas. Mas o que são funções? Pense em funções como um meio de personalizar as funcionalidades do R, funções são estruturas que contém uma série de instruções para realizar uma tarefa específica.
 A primeira função que abordo é bem simples mas muito importante para realizar muitas tarefas e também para utilizar funções mais complexas que serão abordadas adiante. Estou falando da função c() (abreviação de concatenar). Essa função armazena uma série de valores em uma estrutura de dados chamada vetor. (os vetores serão detalhados no tópico 3). Vamos criar nosso primeiro vetor
 
-    vetor1 <- c(2,,4,6,8,10)
+    vetor1 <- c(2,,4,6,8,10,4)
     
-* O que vai dentro da função é o que chamamos de argumento. Um argumento nada mais é que a personalização das funcionalidades das funções. Cada função possui diferentes argumentos que podem ser encontrado na guia de ajuda, por meio da função help(), caso você não saiba como usar a função.
+* O que vai dentro da função é o que chamamos de argumento. Um argumento nada mais é que a personalização das funcionalidades das funções. Cada função possui diferentes argumentos que podem ser encontrados no documento de ajuda associado a cada função na guia de ajuda, e que são acessados por meio da função help(), caso você não saiba como usar a função. Além disso, os argumentos de uma função sempre separados por vírgulas. 
+
+
+Com o nosso primeiro vetor criado podemos usar outras funções para calcular algumas estatísticas. Por exemplo, podemos calcular a média, a variância, o desvio padrão e número de elementos em nosso vetor usando as seguintes funções
+
+##### Média e Mediana
+
+    mean(vetor1) 
+  
+    median(vetor1)
+
+![imagem1h](https://user-images.githubusercontent.com/96084042/168922037-e2fe6a25-7353-41ff-b6ad-fb71af1aac7a.png)
+
+
+##### Variância, Desvio Padrão e Número de Elementos
+
+    var(vetor1)
+    
+    sd(vetor1)
+    
+    length(vetor1)
+
+
+![imagem1i](https://user-images.githubusercontent.com/96084042/168922473-8a6f76da-8e7f-45c2-9d93-9845708c974b.png)
+
+
+Se quisermos utilizar ou precisarmos utilizar os valores resultantes, basta atribuirmos esses a novos objetos, veja: 
+
+    media_vetor1 <- mean(vetor1)
+    
+    var_vetor1 <- var(vetor1)
+    
+    desvio_vetor1 <- sd(vetor1)
 
 
 
+![imagem1j](https://user-images.githubusercontent.com/96084042/168925634-885704b4-8e33-4b6b-8dd1-c383d321777f.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
+### Sequências
 
 
 
