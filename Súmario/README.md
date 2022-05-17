@@ -2,8 +2,8 @@
 
 Material referente a cada aula dada e que aborda um (ou mais) aspecto ou tema do R
 
-## Aulas
+## Tópicos
 
-* [Aula 0](apresentação)
-* [Aula 1](aula1)
+* [Tópico 0](apresentação)
+* [Tópico 1](aula1)
 
