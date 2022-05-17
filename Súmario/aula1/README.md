@@ -55,10 +55,51 @@ Podemos alterar o valor de um objeto já criado. Para isso, basta atribuirmos ou
 
 Uma vez que criamos nossos objetos, podemos realizer operaçõe aritméticas com eles. 
 
-![imagem1f](https://user-images.githubusercontent.com/96084042/168707653-5e63a3d4-35f8-4057-a3e9-1d71d7353627.png)
+![imagem1f](https://user-images.githubusercontent.com/96084042/168835147-23bdc6a6-1416-42e2-a4ff-4cc26fe09752.png)
 
 
 * Vale dizer que o R funciona como uma calculadora e devido a isso segue as ordens das operações matemáticas. 
+
+
+No entanto se tentarmos realizar ações com objetos do tipo caracter, o R retornará um erro
+
+![imagem1g](https://user-images.githubusercontent.com/96084042/168837016-38bd2508-abc6-4a35-8d80-fd29ac7e8c86.png)
+
+* A mensagem de erro está informando que ambos os objetos não são um número e, portanto, não podem ser somados.
+
+
+### Funções
+A medida que progredimos no aprendizado e uso da linguagem iremos nos deparar com problemas e tarefas que demandem estruturas mais complexas do que os simples objetos que criamos, em decorrência disso as funções são importantes e facilitam muito a otimização de códigos e tarefas, além de nos ajudar a resolver muitos problemas. Mas o que são funções? Pense em funções como um meio de personalizar as funcionalidades do R, funções são estruturas que contém uma série de instruções para realizar uma tarefa específica.
+A primeira função que abordo é bem simples mas muito importante para realizar muitas tarefas e também para utilizar funções mais complexas que serão abordadas adiante. Estou falando da função c() (abreviação de concatenar). Essa função armazena uma série de valores em uma estrutura de dados chamada vetor. (os vetores serão detalhados no tópico 3). Vamos criar nosso primeiro vetor
+
+    vetor1 <- c(2,,4,6,8,10)
+    
+* O que vai dentro da função é o que chamamos de argumento. Um argumento nada mais é que a personalização das funcionalidades das funções. Cada função possui diferentes argumentos que podem ser encontrado na guia de ajuda, por meio da função help(), caso você não saiba como usar a função.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
