@@ -162,11 +162,17 @@ Se quisermos repetir os elementos da série ao invés da série como um todo, us
 
 
 ### Aninhamento de funções: funções dentro de funções 
+E se quisessimos cria uma repetição de valores não sequências, como faríamos isso? Utilizamos então a função rep e dentro dela concatenar. É o que chamamos de aninhamento de funções
+
+    my_seq5 <- rep(c(2,7,53,24), each = 3)
+
+![ImagemL4](https://user-images.githubusercontent.com/96084042/169899928-f6f3c1f3-c13a-47cd-b227-71176b47e70e.png)
 
 
+Ou podemos fazer o processo acima, dividindo-o em dua partes 
+
+    in_vec <- c(2,7,53,24)
+    my_seq6 <- rep(in_vec, each = 3) 
 
 
-
-
-
-
+![imagemL5](https://user-images.githubusercontent.com/96084042/169900357-898c76b8-e271-4d8b-844c-c2fa948bd764.png)
