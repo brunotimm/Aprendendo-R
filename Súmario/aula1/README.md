@@ -114,23 +114,65 @@ Se quisermos utilizar ou precisarmos utilizar os valores resultantes, basta atri
 
 
 ### Sequências
+Quando queremos trabalhar com sequencias regulares de valores pode ser útil criar vetores para isso. Há duas formas a se fazer isso, por meio da função seq() ou com a utilização do símbolo : que separa o intervalo de valores, vejamos: 
+
+##### Ordem crescente
+    my_seq <- 20:30
+
+![imagem1k](https://user-images.githubusercontent.com/96084042/169661003-2643f1b8-c124-4e42-8150-37086723632c.png)
+* observem que essa sequência tem como caractéristica de seus dados números inteiros, diferentemente dos objetos que foram criados anteriormente. 
+
+##### Ordem decrescente
+    my_seq2 <- 40:30 
+
+![imagem1k2](https://user-images.githubusercontent.com/96084042/169661042-40c358e8-42d0-4bf3-bc7b-7d4c99286197.png)
 
 
+##### Usando a função seq()
+    my_seq3 <- seq(from = 100, to = 110, by = 3) 
+
+![imagem1k3](https://user-images.githubusercontent.com/96084042/169661045-73f25e81-50a3-4d57-a17b-859d7b486d6f.png)
+
+* Os argumentos *from* e *to* indicam respectivamente onde começa e onde termina a sequência, o argumento *by* indica ao R de quanto em quanto é a contagem.
 
 
+### Repetições
+É possível repetir as sequências e valores que criamos quantas vezes desejarmos através da função rep()
+
+    my_seq4 <- rep(0.5, times = 3)
+    my_seq4
+    
+ ![imagemL](https://user-images.githubusercontent.com/96084042/169661428-f4b1262b-d4ca-4312-9915-27b7567b1835.png)   
+    
+* a primeira parte do argumento indica o numero a ser repetido (0,5), a segunda com o argumento *time*, o nº de vezes que desejamos repetir nosso dado.
 
 
+Também podemos fazer repetições de caractéres
+
+![imagemL1](https://user-images.githubusercontent.com/96084042/169662029-c22d0ab6-34ed-470f-9806-df0c6bc059c0.png)
 
 
+Repetindo uma sequência
+
+![imagemL2](https://user-images.githubusercontent.com/96084042/169662079-6d2829fd-5fac-402a-a614-2eeb6bfa0ed4.png)
+
+Se quisermos repetir os elementos da série ao invés da série como um todo, usamos o argumento *each* 
+
+![imagemL3](https://user-images.githubusercontent.com/96084042/169662162-0608ee06-9f40-4518-9ba9-d68d7cfa1a47.png)
 
 
+### Aninhamento de funções: funções dentro de funções 
+E se quisessimos cria uma repetição de valores não sequências, como faríamos isso? Utilizamos então a função rep e dentro dela concatenar. É o que chamamos de aninhamento de funções
+
+    my_seq5 <- rep(c(2,7,53,24), each = 3)
+
+![ImagemL4](https://user-images.githubusercontent.com/96084042/169899928-f6f3c1f3-c13a-47cd-b227-71176b47e70e.png)
 
 
+Ou podemos fazer o processo acima, dividindo-o em dua partes 
+
+    in_vec <- c(2,7,53,24)
+    my_seq6 <- rep(in_vec, each = 3) 
 
 
-
-
-
-
-
-
+![imagemL5](https://user-images.githubusercontent.com/96084042/169900357-898c76b8-e271-4d8b-844c-c2fa948bd764.png)
