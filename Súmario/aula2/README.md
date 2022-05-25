@@ -62,6 +62,89 @@ Os operadores lógicos para extração de valores via índice lógico são os me
         my_vec[my_vec != 2] diferente de 
 
 
+É possível combinar expressões lógicas (conhecidas como expressões booleanas). Para isso utilizamos os símbolos *&* que significa E; e o símbolo *|* que significa OU. Lembrando nosso vetor, temos:
+       
+       my_vec <- c(2,8,8,4,0,7,4,2)
+
+![imagem2g](https://user-images.githubusercontent.com/96084042/170356294-414ac920-b2e8-41dd-9827-20b4872a5b20.png)
+
+
+* a primeira expressão indica que queremos que o R retorne dentre os valores do nosso vetor valores menores que 8 E maiores que 4
+* a segunda expressão indica que queremos que o R retorne os valores maiores que 5 OU maiores iguais a 7
+
+Perceba que no primeiro caso queremos como resultado as duas condições indicadas pela expressão lógica, já no segundo caso queremos que uma das das duas condições seja satisfeita ou ambas. 
+
+
+##### Substituindo Elementos
+
+Podemos alterar os valores de alguns elementos em um vetor usando nossa [ ]notação em combinação com o operador de atribuição <-. Vamos por exemplo alterar o valor do elemento na posição 5 do nosso vetor que até então é 0 para 30
+
+        my_vec[5] <- 30
+        my_vec[5]
+        my_vec
+
+![imagem2a2](https://user-images.githubusercontent.com/96084042/170365727-2bf5b052-ce2f-4936-a77d-16462823c9ea.png)
+
+E também alterar uma cadeia de valores 
+
+    my_vec[c(1,7,8)] <- 179 
+    my_vec
+    my_vec[my_vec <= 7] <- 93
+    my_vec
+
+![imagem2b2](https://user-images.githubusercontent.com/96084042/170365992-d3cf6fe4-68be-477c-9f26-ff14b5e01cdf.png)
+
+##### Elementos de pedido
+Além de extrair elementos específicos de um vetor, também podemos ordenar os valores contidos nesse. Para classificar os valores do menor para o maior valor, podemos usar a função sort(). A função sort ordena em forma crescente os valores do vetor
+
+    vecsort <- sort(my_vec) 
+    vecsort
+
+![imagem2c2](https://user-images.githubusercontent.com/96084042/170366822-f209f167-64f0-401d-9b77-ca77ac377840.png)
+
+Para fazer a ordem decrescente adicionamos o argumento *decreasing = TRUE* 
+
+    vecsort2 <- sort(my_vec, decreasing = TRUE) 
+    vecsort2
+
+![imagem2d2](https://user-images.githubusercontent.com/96084042/170367260-aa121ef6-b965-407b-a2fc-75847fda1056.png)
+
+Outro modo de classificar os vetores é classifica-los um vetor de acordo com os valores de outro vetor. Para fazer isso, devemos usar a função order() em combinação com []. Vamos supor então a altura de um grupo de 5 crianças: Pedro, Carlos, Ana, Bia e Helen
+
+    altura <- c(180, 155, 160, 167, 181) 
+    altura
+    
+    nomes <- c("Pedro", "Ana", "Helen", "Carlos", "Bia") 
+    nomes
+
+![imagem2e2](https://user-images.githubusercontent.com/96084042/170368422-648a7eb3-3a23-4c8d-8c0c-d90c6cdc6b23.png)
+
+
+Nosso objetivo é ordenar as pessoas em nomes ordem crescente das alturas. A primeira coisa que faremos é usar a  função order() com a variável altura para criar um vetor chamado altura_ordem
+
+    altura_ordem <- order(height) 
+    altura_ordem
+
+    nomes <- c("Pedro", "Ana", "Helen", "Carlos", "Bia") 
+    nomes
+
+![imagem2f2](https://user-images.githubusercontent.com/96084042/170370050-958e8238-4d01-46c6-8b1e-cbc1797e7637.png)
+
+Queremos que a função colocou em ordem as alturas em ordem de termos, portanto o 2 da saída corresponda ao 2º elemento do vetor altura, que representaria a menor altura (155) e portanto o primeiro elemento da ordem e assim sucessivamente. Após criado o vetor ordem das alturas criamos um vetor ordem por nomes e utilizando o objeto nomes, ordenamos as alturas através do nome das crianças.
+
+    altura_ordem <- order(altura) 
+
+    nomes_order <- nomes[altura_ordem] 
+    nomes_order
+
+![imagem2g2](https://user-images.githubusercontent.com/96084042/170370603-1c10de33-cb5f-408d-ac65-1f32769a7c45.png)
+
+
+
+
+
+
+
 
 
 
