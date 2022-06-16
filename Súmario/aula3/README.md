@@ -21,3 +21,17 @@ Dados de caractere são usados para representar valores de string. Caracteres na
 Dados brutos sao os dados que encontramos nas planilhas eletrônicas (como Excel por exemplo). Eles são brutos porque não receberam qualquer tipo de tratamento ou organização até a coleta feita. 
 
 
+![imagem3a](https://user-images.githubusercontent.com/96084042/174133950-e01b134e-3d80-4ffe-b686-274a3ffd5bbd.png)
+
+Outra maneira de descobrir um tipo de daod é por meio de um teste lógico, com a função is.tipodedado que se quer confirmar. Os resultados desse comando resultaram sempre em *TRUE* ou *FALSE* o que signfica se o seu objeto corresponde ou não ao tipo de dado que você atribuiu a ele. 
+
+![imagem3b](https://user-images.githubusercontent.com/96084042/174135026-bf26ed6d-e051-4ec8-b936-d507c0d06373.png)
+
+
+Em alguns momentos pode ser necessário converter o tipo de dado de uma variavel. Esse processo pode ser realizado por meio da familia de funções de coerção as.nomeclass
+
+![imagem3c](https://user-images.githubusercontent.com/96084042/174137134-c952e053-6126-4ebc-b2fc-83c348bc5bd8.png)
+
+
+
+
