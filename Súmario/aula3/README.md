@@ -6,7 +6,7 @@ R tem seis tipos básicos de dados; numérico, inteiro, lógico, complexo, carac
 Os tipos de dados são: 
 
 * *Dados numéricos:* 
-São números que contêm um decimal. Na verdade, eles também podem ser números inteiros, mas vamos passar por cima disso.
+São números que contêm um decimal. Na verdade, eles também podem ser números inteiros, mas não vamos entrar em detalhes sobre isso nesse material.
 
 * *Dados inteiros:*
 Os inteiros são números inteiros (os números sem um ponto decimal).
