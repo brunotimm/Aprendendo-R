@@ -12,7 +12,7 @@ São números que contêm um decimal. Na verdade, eles também podem ser número
 Os inteiros são números inteiros (os números sem um ponto decimal).
 
 * *Dados lógicos:*
-Os dados lógicos assumem o valor de TRUEou FALSE. Há também outro tipo especial de lógica chamada NApara representar valores ausentes.
+Os dados lógicos assumem o valor de TRUE ou FALSE. Há também outro tipo especial de lógica chamada NApara representar valores ausentes.
 
 * *Caracteres:*
 Dados de caractere são usados para representar valores de string. Caracteres nada mais são do que uma palavra (ou várias palavras). Um tipo especial de string de caracteres é um factor , que é uma string mas com atributos adicionais (como níveis ou uma ordem). Abordaremos os fatores mais tarde.
