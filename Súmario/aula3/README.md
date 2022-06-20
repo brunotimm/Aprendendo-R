@@ -33,5 +33,77 @@ Em alguns momentos pode ser necessário converter o tipo de dado de uma variavel
 ![imagem3c](https://user-images.githubusercontent.com/96084042/174137134-c952e053-6126-4ebc-b2fc-83c348bc5bd8.png)
 
 
+### Estrutura de Dados
+
+Depois de visto alguns tipos de dados que podemos trabalhar no R, iremos abordar agora algumas estruturas de dados muito usadas em R para armazenar esses tipos de dados. 
+
+###### Vetores
+Os *vetores* contem dois ou mais elementos (ou valores) dentro dele e podem conter números, caracteres, fatores ou lógicas. O principal aspecto a se lembrar em relação aos vetores é o de que que todos os elementos dentro de um vetor devem ser da mesma classe. Os vetores que contem um unico valor sao chamados de *escalares*. 
+
+##### Matrizes e Arrays
+Uma matriz é simplesmente um vetor que possui atributos adicionais chamados dimensões. Arrays são matrizes multidimensionais. Novamente, matrizes e arrays devem conter todos os elementos da mesma classe de dados.
+Para criar uma matriz ou uma arrays usamos as funções matrix()e array()
+
+![imagem3d](https://user-images.githubusercontent.com/96084042/174661496-81e6d900-d14b-4f0a-ba8d-ed0abd3ec48a.png)
+
+* No primeiro exemplo temos uma matriz preenchida em linha com o argumento *byrow = TRUE*
+* No segundo exemplo temos uma matriz tradicional em que a contagem é feita por colunas. 
+
+![imagem3e](https://user-images.githubusercontent.com/96084042/174662582-ae79b374-5527-4252-9105-161731b65363.png)
+
+
+* Ao usar a função array(), definimos as dimensões usando o *dim = argumento* . Nesse caso temos uma matriz com 2 linhas, 4 colunas em 2 matrizes diferentes. No exemplo com a função matrix() temos uma matriz unidimensional. O que muda portanto é que definimos as mesmas características para a nossa estrutura em apenas uma matriz no primeiro caso e em uma matriz bidimensional nesse. 
+
+Podemos dar nomes as linhas e colunas de nossas matrizes
+
+![imagem3f](https://user-images.githubusercontent.com/96084042/174664610-c97df71e-8c6f-47cf-b800-8a72e6171fac.png)
+
+Assim como vimos com os vetores que criamos com as matrizes também é possível realizar operações o R possui várias funções internas para executar operações de matrizes. Vamos dar uma olhada nas principais a seguir
+
+#### Operações com matrizes
+
+![imagem3g](https://user-images.githubusercontent.com/96084042/174665612-187bcc22-757b-40ed-adc5-3a366ab245af.png)
+
+* temos aqui a extração da diagonal principal de nossa matriz e a sua transposta.
+
+![imagem3h](https://user-images.githubusercontent.com/96084042/174666211-7b7b1c78-ff2d-4356-9ae9-23eb3599e059.png)
+
+**I: soma de matrizes**;
+
+**II : produtos de cada elemento das matrizes**; 
+
+**III: multiplicaçao de matrizes**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
