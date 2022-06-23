@@ -75,6 +75,9 @@ Assim como vimos com os vetores que criamos com as matrizes também é possível
 **III: multiplicaçao de matrizes**
 
 
+##### Listas 
+
+As listas são capazes de armazenar assim como as matrizes e vetores,  com a diferença que nas listas é possível armazenar misturas de tipos de dados, podemos até armazenar outras estruturas de dados, como vetores e matrizes. Para criar uma lista, podemos usar a função list()
 
 
 
