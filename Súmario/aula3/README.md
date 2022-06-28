@@ -75,9 +75,25 @@ Assim como vimos com os vetores que criamos com as matrizes também é possível
 **III: multiplicaçao de matrizes**
 
 
-##### Listas 
+### Listas 
 
-As listas são capazes de armazenar assim como as matrizes e vetores,  com a diferença que nas listas é possível armazenar misturas de tipos de dados, podemos até armazenar outras estruturas de dados, como vetores e matrizes. Para criar uma lista, podemos usar a função list()
+As listas são capazes de armazenar assim como as matrizes e vetores,  com a diferença que nas listas é possível armazenar misturas de tipos de dados, podemos até armazenar outras estruturas de dados, como vetores e matrizes. Para criar uma lista, podemos usar a função list() 
+
+    list_1 <- list(c("azul", "rosa" , "verde"), c(TRUE, FALSE, TRUE), matrix(1:4, nrow = 2))
+    list_1
+
+
+    list_2 <- list(Colours = c("azul", "rosa" , "verde"), 
+               Evaluation = c(TRUE, FALSE, TRUE),
+               Time = matrix(1:4, nrow = 2))  
+    list_2
+
+
+    names(list_1) <- c("Colours", "Evaluation", "Time") 
+    list_1
+
+
+![imagem3i](https://user-images.githubusercontent.com/96084042/176233359-2b0b3db6-2de6-446a-b2f2-769f42ab14e7.png)
 
 
 
