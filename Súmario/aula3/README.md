@@ -95,7 +95,7 @@ As listas são capazes de armazenar assim como as matrizes e vetores,  com a dif
 
 ![imagem3i](https://user-images.githubusercontent.com/96084042/176233359-2b0b3db6-2de6-446a-b2f2-769f42ab14e7.png)
 
-
+* o uso da função names(list_1) trata apenas de uma outra maneira de nomear os elementos de nossas listas
 
 
 
