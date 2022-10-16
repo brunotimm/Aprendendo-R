@@ -8,7 +8,7 @@ logo que se tem contato com a linguagem, como por exemplo a função help.
 
 ### O que é o R e RStudio?
 
-R é uma linguagem/ softwaree de computação estatística e gráfica de código aberto e disponível gratuitamente. R é um software para análise estatística que permite de forma robusta todo e qualquer cálculo estatístico que se faz necessário fornecendo uma ampla variedade de técnicas, como por exemplo modelagem linear, testes estatísticos clássicos, análise de séries temporais, etc. Além disso é uma ferramenta que permite criar gráficos e relatórios do mais alto nivel, bem projetados e que inclua símbolos e fórmulas matemáticas. Já o  RStudio é um software de ambientação de desenvolvimento integrado (IDE) para o R, ou seja, um ambiente complementar a linguagem que permite melhor trabalho e visualização com a programação em R. (Imagens abaixo)
+R é uma linguagem/ softwaree de computação estatística e gráfica de código aberto e disponível gratuitamente. R é um software para análise estatística que permite de forma robusta todo e qualquer cálculo estatístico que se faz necessário fornecendo uma ampla variedade de técnicas, como por exemplo modelagem linear, testes estatísticos clássicos, análise de séries temporais, etc. Além disso é uma ferramenta que permite criar gráficos e relatórios bonitos e de fáicl reprodução. Já o  RStudio é um software de ambientação de desenvolvimento integrado (IDE) para o R, ou seja, um ambiente complementar a linguagem que permite melhor trabalho e visualização com a programação em R. (Imagens abaixo)
 
 
 ##### Imagem do software R
@@ -33,7 +33,7 @@ Para instalar um pacote do CRAN usamos a função install.packages. Suponha que 
 * É necessário colocar o nome do pacote que se quer instalar entre aspas simples ou duplas (tanto faz) para que a instalação seja realizada com sucesso. 
 
 ##### Carregando os pacotes
-Depois de instalar o pacote no R, ele não está automáticamente sendo usado. Para conseguirmos utilizar os pacotes baixados, precisamos carregá-los por meio da função library(). A função library também carregará quaisquer pacotes adicionais necessários e poderá imprimir informações adicionais do pacote.
+Depois de instalar o pacote no R, ele não está automáticamente sendo usado. Para conseguirmos utilizar os pacotes baixados, precisamos carregá-los por meio da função library().
       
       library(tidyverse)
       
@@ -42,12 +42,16 @@ Depois de instalar o pacote no R, ele não está automáticamente sendo usado. P
 
       could not find package "tidyverse"
 
+Outro ponto relevante sobre a instalação dos pacotes é o argumento dependencies dentro do comando install.packages. Esse argumento garante que pacotes adicionais necessários também sejam baixados. Veja como utiliza-lo
 
+      install.packages('remotes', dependencies = TRUE)
+      
+* Supondo que queremos intalar o pacote remotes e todos os pacotes adicionais desse. Utilizamos o *dependencies = TRUE* para que isso seja feito. 
 
 ### Ajuda no R
-Um dos muitos aspectos positivos do R é o seu sistema de ajuda, seja ela dentro do próprio sistema, através da imensa e ativa comunidade de pessoas que usam o R ou por meio da riqueza de recursos on-line onde você pode obter mais informações. Independemente do canal que você utilize, as ferramentas de ajuda são muito acessíveis, o que torna fácil obter a resposta para a dúvida e problema que você pode estar enfrentando (e acredite vão ser muitos). O lado bom é que provavelmente alguém já deve ter passado pelo mesmo problema que você e portanto a solução para isso será muito mais simples para você do que foi para aqueles que te deram a resposta. Algumas das formas de se obter ajuda em R são:
+Um dos muitos aspectos positivos do R é o seu sistema de ajuda, seja ela dentro do próprio sistema, através da imensa e ativa comunidade de pessoas que usam o R ou por meio da grande gama de recursos on-line onde você pode obter mais informações. Independemente do canal que você utilize, as ferramentas de ajuda são muito acessíveis, o que torna fácil obter a resposta para a dúvida e/ou problema que você possa estar enfrentando. Algumas das formas de se obter ajuda em R são:
 
-Função help(): A função help() é utilizada para acessar o recurso de ajuda interno do R para obter informações sobre qualquer função, como por exemplo pedir ajuda sobre a mediana de um conjunto de dados:
+Função help(): A função help() é utilizada para acessar o recurso de ajuda interno do R para obter informações sobre qualquer função, como por exemplo pedir ajuda sobre a função da função (perdão a redundância kk) mediana em um conjunto de dados:
 
       help(median)
 
@@ -76,4 +80,16 @@ Mas e se você não lembrar o nome da função que gostaria de usar? Bem, o R te
 
 Além dessas duas formas de se obter ajuda que mostradas, existem milhares de outros recursos para se obter ajuda tanto dentro do R quanto fora, que não dariam pra ser abordados aqui. Alguns dos outros meios de se obter ajuda são por meio dos cheatsheets, cartões resumos sobre os principais recursos (https://www.rstudio.com/resources/cheatsheets/), funções e dicas de R, no próprio site R (https://www.r-project.org/), e nas mais  diversas comunidades ativas do R e forúns como o Stack Overflow.    
       
-            
+      
+### Atalhos 
+
+A alguns atalhos que podem otimizam e muito nosso trabalho no R. São eles 
+
+* *Ctrl + enter* = roda a linha de código no script
+* *Alt + * = cria no script o sinal de atribuição <-
+* *Ctrl + Shift + M* = operador pipe %>%
+* *Ctrl + 1* = altera cursor para script 
+* *Ctrl + 2* = altera cursor para console
+* *Ctrl Alt + I* = cria um chunk no rmarkdown
+* *Ctrl + Shift + K* = compila um arquivo no R Markdown.
+* *Alt + Shift + K* = janela com todos os atalhos disponíveis.
