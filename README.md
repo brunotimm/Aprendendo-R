@@ -1,11 +1,10 @@
 ![download](https://user-images.githubusercontent.com/96084042/160651229-a6f7bbea-298f-4782-87a1-07cef93d1b12.png)
 
 # Aprendendo R 
-Um Guia inicial para auxiliar no aprendizado da  linguagem R. O material é baseado nas monitorias lecionadas por mim na Universidade Federal de São Carlos na disciplina de Estatística 1 do curso de Economia. Esse guia não se trata de um livro sobre R nem tem a intenção de ser (até por isso deixo de lado certos detalhes e rigores técnicos), mas sim um caminho inicial, acessível e estimulante para aprender a linguagem. Como referência utilizo os livros que usei quando comecei meu aprendizado de R: introdução ao R do curso de bioestatística e pós-graduação na Universidade de Aberdeen e "R for Data Science" da editora O'Reilly, os quias eu recomendo como material para aprofundamento do aprendizado.
-
+Um Guia inicial para auxiliar no aprendizado da  linguagem R. O material é baseado nas monitorias lecionadas por mim na Universidade Federal de São Carlos na disciplina de Estatística 1 do curso de Economia e também no meu aprendizado da linguagem. Esse guia não se trata de um livro sobre R nem tem a intenção de ser (até por isso deixo de lado certos detalhes e rigores técnicos), mas sim um caminho inicial, acessível e estimulante para aprender a linguagem.
 
 ## Conteúdo: Estrutura dos tópicos
-O conteúdo desse guia, ou seja, os assuntos abordados em cada tópico seguem a mesma sequência utilizada nas aulas dadas. Cada aula aborda no máximo 3 conteúdos do R (a depender do conteúdo), e posuem uma sequência lógica e progressiva de aprendizado. Portanto, a não ser que haja domínio prévio dos temas eu aconselho a seguir essa estrutura, mas fique a vontade para utilizar da forma que quiser e a sequência que achar melhor para si, até porque não se trata de um manual formal. 
+O conteúdo desse guia seguem uma sequência lógica de aprendizado progressivo. Cada aula aborda no máximo 3 conteúdos do R (a depender do conteúdo). Portanto, a não ser que haja domínio prévio dos temas eu aconselho a seguir essa estrutura, mas fique a vontade para utilizar da forma que quiser e explora-lo da maneira que achar ter mais sentido para si.  
 
 ###### Acesso as aulas: 
 
@@ -18,6 +17,9 @@ O conteúdo desse guia, ou seja, os assuntos abordados em cada tópico seguem a 
 
 
 ## Referências
+Deixo aqui alguns links para quem quiser se aprofundar nos assuntos abordados, bem como desbravar outros pontos ausentes de projeto. 
+
+
 Link para o livro-site dos professores da universidade de Aberdeen - https://intro2r.com/
 
 Link para o livro-site "R for Data Science" da editora O'Reilly - https://r4ds.had.co.nz/
