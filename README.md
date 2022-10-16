@@ -17,7 +17,7 @@ O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo. 
 
 
 ## Referências
-Deixo aqui alguns links para quem quiser se aprofundar nos assuntos abordados, bem como desbravar outros pontos ausentes de projeto. 
+Deixo aqui alguns links para quem quiser se aprofundar nos assuntos abordados, bem como desbravar outros pontos ausentes desse guia. 
 
 
 Link para o livro-site dos professores da universidade de Aberdeen - https://intro2r.com/
