@@ -1,5 +1,5 @@
 # Aula 0 
-* [Índice](Súmario/README.md)
+[Índice](Súmario/README.md)
 
 ## Apresentação do R e RStudio
 
