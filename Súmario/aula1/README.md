@@ -1,5 +1,8 @@
 # Aula 1
-## Funções
+## ConceitoS iniciais 
+
+
+
 
 ### O que são objetos?
 Os objetos são tudo aquilo que você cria em R. Esses objetos podem ser quase qualquer coisa, desde um único número ou cadeia de caracteres (como uma palavra) até estruturas altamente complexas, como a saída de um gráfico, análises estatísticas e etc.
