@@ -1,4 +1,3 @@
-[Índice](Súmario/README.md)
 # Aula 0 
 
 ## Apresentação do R e RStudio
