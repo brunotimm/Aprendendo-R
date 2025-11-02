@@ -1,6 +1,8 @@
 ![download](https://user-images.githubusercontent.com/96084042/160651229-a6f7bbea-298f-4782-87a1-07cef93d1b12.png)
 
-# Aprendendo R 
+# Análise de Dados em R (repositório pessoal de estudo e prática)
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+
 Este repositório é o meu espaço de estudo contínuo em R voltado para análise de dados em economia aplicada e políticas públicas!
 A ideia aqui é registrar, passo a passo, tudo o que eu realmente uso e aprendo em R: comandos, truques, armadilhas, padrões de limpeza de dados, modelagem econométrica e interpretação de resultados.
 
