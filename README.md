@@ -1,6 +1,6 @@
 ![download](https://user-images.githubusercontent.com/96084042/160651229-a6f7bbea-298f-4782-87a1-07cef93d1b12.png)
 
-# Análise de Dados em R (repositório pessoal de estudo e prática)
+# Análise de Dados em R 
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 
 Este repositório é o meu espaço de estudo contínuo em R voltado para análise de dados em economia aplicada e políticas públicas!
