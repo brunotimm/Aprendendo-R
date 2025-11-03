@@ -1,6 +1,6 @@
 ![download](https://user-images.githubusercontent.com/96084042/160651229-a6f7bbea-298f-4782-87a1-07cef93d1b12.png)
 
-# Análise de Dados em R 
+# R Aplicado
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
 ![Economia](https://img.shields.io/badge/%F0%9F%93%88%20Economia-%20-%230F766E?logoColor=white&style=flat)
 ![Análise de Dados](https://img.shields.io/badge/%F0%9F%93%8A%20An%C3%A1lise%20de%20Dados-%20-%232563EB?logoColor=white&style=flat)
