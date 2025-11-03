@@ -2,6 +2,9 @@
 
 # Análise de Dados em R 
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
+![Economia](https://img.shields.io/badge/%F0%9F%93%88%20Economia-%20-%23096f88)
+![Análise de Dados](https://img.shields.io/badge/%F0%9F%93%8A%20An%C3%A1lise%20de%20Dados-%20-%233776AB)
+![Políticas Públicas](https://img.shields.io/badge/%F0%9F%8F%9B%EF%B8%8F%20Pol%C3%ADticas%20P%C3%BAblicas-%20-%238A2BE2)
 
 Este repositório é o meu espaço de estudo contínuo em R voltado para análise de dados em economia aplicada e políticas públicas!
 A ideia aqui é registrar, passo a passo, tudo o que eu realmente uso e aprendo em R.
