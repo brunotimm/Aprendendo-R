@@ -38,7 +38,7 @@ Abra casos empiricos.
 
 <br>
 
-## Conteúdo: Estrutura dos tópicos
+## Estrutura dos tópicos
 O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo. 
 
 1. Fundamentos de R (`fundamentos`);
