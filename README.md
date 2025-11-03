@@ -36,7 +36,6 @@ Começe em fundamentos.
 - *Quer ver “pesquisa aplicada de verdade”?*
 Abra casos empiricos.
 
-<br>
 
 ## Estrutura dos tópicos
 O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo. 
