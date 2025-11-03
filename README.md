@@ -41,7 +41,7 @@ O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo.
 2. Procedimentos aplicados (`procedimentos_aplicados`);
 3. Casos empíricos / Estudos de caso (`casos_empiricos`)
 
-#### Acesso as aulas: 
+#### Acesso as conteúdo: 
 
 * [Sumário](Súmario/README.md)
 
