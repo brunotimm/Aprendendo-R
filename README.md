@@ -39,7 +39,7 @@ O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo.
 
 #### Acesso as aulas: 
 
-* [Índice](Súmario/README.md)
+* [Sumário](Súmario/README.md)
 
 
 <br>
