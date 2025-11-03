@@ -11,7 +11,7 @@ Material referente a cada conteúdo do R dado o tópico abordado
 
 ## Tópicos
 
-* [Tópico 0](aula0)
+* [Tópico 0](apresentação)
 * [Tópico 1](aula1)
 * [Tópico 2](aula2)
 * [Tópico 3](aula3)
