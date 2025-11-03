@@ -49,6 +49,19 @@ O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo.
 * [Índice](Súmario/README.md)
 
 
+<br>
+
+## Compartilhamento 
+
+Nota de licença
+
+O conteúdo textual e os scripts deste repositório podem ser reutilizados livremente para fins educacionais e de pesquisa, desde que citada a fonte.
+Os dados utilizados nos exemplos (PNADC, RAIS, etc.) pertencem às respectivas instituições produtoras e podem ter restrições próprias de uso e redistribuição. Sempre verifique essas licenças antes de republicar trechos de dados.
+
+
+
+
+
 
 
 
