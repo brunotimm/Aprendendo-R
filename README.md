@@ -6,7 +6,7 @@
 Este repositório é o meu espaço de estudo contínuo em R voltado para análise de dados em economia aplicada e políticas públicas!
 A ideia aqui é registrar, passo a passo, tudo o que eu realmente uso e aprendo em R: comandos, truques, armadilhas, padrões de limpeza de dados, modelagem econométrica e interpretação de resultados.
 
-É um projeto vivo, em constante atualização.
+Este material é versionado: ele evolui com o tempo. Versões antigas continuam acessíveis no histórico do Git, mas o texto e o código podem mudar à medida que eu aprendo coisas novas, descubro erros ou melhoro a forma de explicar.
 
 Sempre que eu:
 
