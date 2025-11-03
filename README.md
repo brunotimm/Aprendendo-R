@@ -25,10 +25,10 @@ A motivação para esse projeto são duas: **<u>um caderno de aprendizado contin
 Deixo aqui alguns links para quem quiser se aprofundar nos assuntos abordados, bem como desbravar outros pontos ausentes desse guia. 
 
 - *Quer aprender a sintaxe?*
-Começe em fundamentos.
+Começe em fundamentos
 
 - *Quer copiar uma rotina pronta (importar dados, limpar variável, gerar uma tabela)?*
-  Vá em procedimentos aplicados.
+Vá em procedimentos aplicados.
 
 - *Quer ver “pesquisa aplicada de verdade”?*
 Abra casos empiricos.
