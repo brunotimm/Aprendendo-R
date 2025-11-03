@@ -17,27 +17,35 @@ Sempre que eu:
 
 Irei documentar aqui – com código comentado e explicado
 
+<br>
+
 ## Objetivo do repositório
 A motivação para esse projeto são duas: **<u>um caderno de aprendizado continuo e permanente</u>** onde eu organizo minha própria compreensão e uma **referência rápida reutilizável** um lugar pra copiar/colar quando eu precisar repetir tarefas clássicas de pesquisa empírica.
 
+<br>
+
+## Como navegar 
+Deixo aqui alguns links para quem quiser se aprofundar nos assuntos abordados, bem como desbravar outros pontos ausentes desse guia. 
+
+- *Quer aprender a sintaxe?*
+Começe em fundamentos.
+
+- *Quer copiar uma rotina pronta (importar dados, limpar variável, gerar uma tabela)?*
+  Vá em procedimentos aplicados.
+
+- *Quer ver “pesquisa aplicada de verdade”?*
+Abra casos empiricos.
+
+<br>
 
 ## Conteúdo: Estrutura dos tópicos
 O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo. 
 
-### **1. Fundamentos de R** (`fundamentos`)###  
-* Coisas essenciais da linguagem e do ecossistema tidyverse, como:
-    - tipos básicos de objeto (numeric, character, factor, logical, data.frame, tibble);
-    - leitura de dados (readr, haven, readxl, etc.);
-    - manipulação com dplyr (filter, mutate, select, arrange, group_by + summarise);
-    - criação e recodificação de variáveis (dummies, faixas etárias, escolaridade etc.);
-    - controle de fluxo e funções próprias (if, purrr::map, funções simples com function(...) {}).
+1. Fundamentos de R (`fundamentos`);
+2. Procedimentos aplicados (`procedimentos_aplicados`);
+3. Casos empíricos / Estudos de caso (`casos_empiricos`)
 
-
-*Pergunta que essa parte responde:*
-“Como eu faço X no R?”
-
-
-##### Acesso as aulas: 
+#### Acesso as aulas: 
 
 * [Índice](Súmario/README.md)
 
@@ -45,12 +53,3 @@ O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo.
 
 
 
-
-
-## Referências
-Deixo aqui alguns links para quem quiser se aprofundar nos assuntos abordados, bem como desbravar outros pontos ausentes desse guia. 
-
-
-Link para o livro-site dos professores da universidade de Aberdeen - https://intro2r.com/
-
-Link para o livro-site "R for Data Science" da editora O'Reilly - https://r4ds.had.co.nz/
