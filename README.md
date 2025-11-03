@@ -30,7 +30,7 @@ Começe em fundamentos
 - *Quer copiar uma rotina pronta (importar dados, limpar variável, gerar uma tabela)?*
 Vá em procedimentos aplicados.
 
-- *Quer ver “pesquisa aplicada de verdade”?*
+- *Quer ver pesquisa aplicada?*
 Abra casos empiricos.
 
 
