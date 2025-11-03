@@ -2,7 +2,7 @@
 
 # Análise de Dados em R 
 ![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)
-![Economia](https://img.shields.io/badge/%F0%9F%93%88%20Economia-%20-%23096f88)
+![Economia](https://img.shields.io/badge/%F0%9F%93%88%20Economia-%20-%230F766E?logoColor=white&style=flat)
 ![Análise de Dados](https://img.shields.io/badge/%F0%9F%93%8A%20An%C3%A1lise%20de%20Dados-%20-%233776AB)
 ![Políticas Públicas](https://img.shields.io/badge/%F0%9F%8F%9B%EF%B8%8F%20Pol%C3%ADticas%20P%C3%BAblicas-%20-%238A2BE2)
 
