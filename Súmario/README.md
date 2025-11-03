@@ -2,7 +2,7 @@
 
 Material referente a cada conteúdo do R dado o tópico abordado
 
-#### 1. Fundamentos de R (`fundamentos`);
+#### 1. [Fundamentos de R](`fundamentos`/README.md);
 #### 2. Procedimentos aplicados (`procedimentos_aplicados`)
 #### 3. Casos empíricos / Estudos de caso (`casos_empiricos`)
 
