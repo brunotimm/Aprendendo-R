@@ -20,7 +20,7 @@ Irei documentar aqui – com código comentado e explicado
 <br>
 
 ## Objetivo do repositório
-A motivação para esse projeto são duas: **<u>um caderno de aprendizado continuo e permanente</u>** onde eu organizo minha própria compreensão e uma **referência rápida reutilizável** um lugar pra copiar/colar quando eu precisar repetir tarefas clássicas de pesquisa empírica.
+A motivação para esse projeto são duas: **<u>um caderno de aprendizado continuo e permanente</u>** onde eu organizo minha própria compreensão e uma **referência rápida reutilizável** um lugar para quando eu precisar repetir tarefas clássicas de pesquisa empírica.
 
 <br>
 
