@@ -1,6 +1,7 @@
-# Índice das aulas
+# Índice
 
-Material referente a cada aula dada e que aborda um (ou mais) aspecto do R
+Material referente a cada conteúdo do R dado o seu segmento
+
 
 ## Tópicos
 
