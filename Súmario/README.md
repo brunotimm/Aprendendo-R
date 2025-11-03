@@ -1,6 +1,6 @@
 # Índice
 
-Material referente a cada conteúdo do R dado o seu segmento
+Material referente a cada conteúdo do R dado o tópico abordado
 
 
 ## Tópicos
