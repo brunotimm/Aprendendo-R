@@ -38,7 +38,7 @@ Abra casos empiricos.
 O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo. 
 
 1. Fundamentos de R (`fundamentos`);
-2. Tratamento (`tratamento e manipulação`);
+2. Tratamento e Manipulação (`tratamento e manipulação`);
 3. Pesquisa (`pesquisa`)
 
 #### Acesso as conteúdo: 
