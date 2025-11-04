@@ -27,4 +27,11 @@ Sempre que eu:
 - gerar um conteúdo que eu gostaria de reaproveitar depois;  
 - rodar um modelo econométrico e interpretra-lo,
 
-Irei documentar aqui – com código comentado e explicado
+Irei documentar aqui – com código comentado e explicado.
+
+<br>
+
+Para acessar o conteúdo clique no sumário abaixo:
+
+* [Sumário](Súmario/README.md)
+
