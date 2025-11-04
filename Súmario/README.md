@@ -3,7 +3,7 @@
 Material referente a cada conteúdo do R dado o tópico abordado
 
 1. [Fundamentos](Fundamentos/README.md);
-2. [Procedimentos](Procedimentos/README.md);
+2. [Tratamento e Manipulação](TratamentoManipulação/README.md);
 3. [Pesquisa](Pesquisa/README.md)
 
 
