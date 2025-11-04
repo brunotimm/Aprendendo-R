@@ -38,8 +38,8 @@ Abra casos empiricos.
 O conteúdo desse guia segue uma sequência lógica de aprendizado progressivo. 
 
 1. Fundamentos de R (`fundamentos`);
-2. Procedimentos aplicados (`procedimentos_aplicados`);
-3. Casos empíricos / Estudos de caso (`casos_empiricos`)
+2. Tratamento (`tratamento e manipulação`);
+3. Pesquisqa (`pesquisa`)
 
 #### Acesso as conteúdo: 
 
