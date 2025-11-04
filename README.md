@@ -12,7 +12,7 @@ A ideia aqui é registrar, passo a passo, tudo o que eu realmente uso e aprendo 
 
 Este material é versionado: ele evolui com o tempo. Versões antigas continuam acessíveis no histórico do Git, mas o texto e o código podem mudar à medida que eu aprendo coisas novas, descubro erros ou melhoro a forma de explicar.
 
-* Para começar, leia a [Introdução](Introdução/intro.md)
+Para começar, leia a [Introdução](Introdução/intro.md)
 
 <br>
 
