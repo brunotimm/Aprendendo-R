@@ -4,7 +4,7 @@ Material referente a cada conteúdo do R dado o tópico abordado
 
 1. [Fundamentos](Fundamentos/README.md);
 2. [Procedimentos](Procedimentos/README.md);
-#### 3. Casos empíricos / Estudos de caso (`casos_empiricos`)
+3. [Casos Empíricos](CasosEmpiricos/README.md)
 
 
 
